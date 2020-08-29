@@ -1,0 +1,100 @@
+body
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+
+    margin: 0;
+    background-color: #59baff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.App
+{
+    width: 60%;
+    max-width: 700px;
+    margin: 50px auto;
+    /* background: linear-gradient(45deg, rgb(95, 128, 244), rgb(21, 200, 205)); */
+    border-radius: 40px;
+    background: linear-gradient(145deg, #59baff, #4b9ddb);
+    box-shadow:  16px 16px 32px #3f84b9,
+             -16px -16px 32px #67d8ff;
+}
+.nav-bar
+{
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.nav-bar h1
+{
+    margin: 10px 0;
+}
+
+.book-list {
+  margin: 20px;
+  text-align: center;
+}
+
+.empty{
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.book-list ul {
+  padding: 10px;
+  list-style-type: none;
+}
+
+.book-list li {
+  margin: 10px;
+  border-radius: 15px;
+  background: linear-gradient(145deg, #42a6f3, #388ccc);
+  box-shadow:  5px 5px 6px #3584c1,
+               -5px -5px 6px #47b2ff;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.book-list li:hover {
+  opacity: 0.7;
+  text-decoration: line-through;
+}
+
+.book-list .title {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.book-list .author{
+  font-size: 0.9em;
+}
+
+input[type='text'] {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 40%;
+  border: 0;
+  box-sizing: border-box;
+  border-radius: 40px;
+  outline: none;
+  background: #3598e3;
+  box-shadow: inset 7px 7px 14px #2f86c8,
+              inset -7px -7px 14px #3baafe;
+}
+input[type='submit']{
+  outline: none;
+  color: black;
+  display: block;
+  margin: 10px auto;
+  border:0;
+  border-radius: 15px;
+  background: linear-gradient(145deg, #42a6f3, #388ccc);
+  box-shadow:  5px 5px 6px #3584c1,
+               -5px -5px 6px #47b2ff;
+  cursor: pointer;
+  padding: 10px;
+}

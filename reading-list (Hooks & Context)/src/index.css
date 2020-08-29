@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  max-width: 500px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+nav {
+  padding: 5px;
+  /* background-color: #dff */
+}
+
+nav ul {
+  /* background-color: #ffa; */
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin:  0 10px;
+  font-weight: bold;
+}
+
+.book-list {
+  margin-top: 5px;
+  /* background-color: #dff; */
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.book-list ul {
+  padding: 0px;
+  list-style-type: none;
+  /* background-color: #fdf; */
+}
+
+.book-list li {
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 10px;
+}
